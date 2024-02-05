@@ -1,0 +1,481 @@
+TITLE: FULL ABCD W1 SAMPLE CBCL FACTORS AND PLE;
+DATA:  FILE is complete_data.dat;
+VARIABLE: NAMES ARE
+subnum
+sub_id
+age
+female
+gender
+psweight
+famid
+relation
+demo_prim
+siten
+white
+NHWHITE
+AFRICAN
+HISPANIC
+OTHER
+cb1_1
+cb2_1
+cb3_1
+cb4_1
+cb5_1
+cb6_1
+cb7_1
+cb8_1
+cb9_1
+cb10_1
+cb11_1
+cb12_1
+cb13_1
+cb14_1
+cb15_1
+cb16_1
+cb17_1
+cb18_1
+cb19_1
+cb20_1
+cb21_1
+cb22_1
+cb23_1
+cb24_1
+cb25_1
+cb26_1
+cb27_1
+cb28_1
+cb29_1
+cb30_1
+cb31_1
+cb32_1
+cb33_1
+cb34_1
+cb35_1
+cb36_1
+cb37_1
+cb38_1
+cb39_1
+cb40_1
+cb41_1
+cb42_1
+cb43_1
+cb44_1
+cb45_1
+cb46_1
+cb47_1
+cb48_1
+cb49_1
+cb50_1
+cb51_1
+cb52_1
+cb53_1
+cb54_1
+cb55_1
+cb56a_1
+cb56b_1
+cb56c_1
+cb56d_1
+cb56e_1
+cb56f_1
+cb56g_1
+cb56h_1
+cb57_1
+cb58_1
+cb59_1
+cb60_1
+cb61_1
+cb62_1
+cb63_1
+cb64_1
+cb65_1
+cb66_1
+cb67_1
+cb68_1
+cb69_1
+cb70_1
+cb71_1
+cb72_1
+cb73_1
+cb74_1
+cb75_1
+cb76_1
+cb77_1
+cb78_1
+cb79_1
+cb80_1
+cb81_1
+cb82_1
+cb83_1
+cb84_1
+cb85_1
+cb86_1
+cb87_1
+cb88_1
+cb89_1
+cb90_1
+cb91_1
+cb92_1
+cb93_1
+cb94_1
+cb95_1
+cb96_1
+cb97_1
+cb98_1
+cb99_1
+cb100_1
+cb101_1
+cb102_1
+cb103_1
+cb104_1
+cb105_1
+cb106_1
+cb107_1
+cb108_1
+cb109_1
+cb110_1
+cb111_1
+cb112_1
+attend_1
+destroy_1
+cb1_2
+cb2_2
+cb3_2
+cb4_2
+cb5_2
+cb6_2
+cb7_2
+cb8_2
+cb9_2
+cb10_2
+cb11_2
+cb12_2
+cb13_2
+cb14_2
+cb15_2
+cb16_2
+cb17_2
+cb18_2
+cb19_2
+cb20_2
+cb21_2
+cb22_2
+cb23_2
+cb24_2
+cb25_2
+cb26_2
+cb27_2
+cb28_2
+cb29_2
+cb30_2
+cb31_2
+cb32_2
+cb33_2
+cb34_2
+cb35_2
+cb36_2
+cb37_2
+cb38_2
+cb39_2
+cb40_2
+cb41_2
+cb42_2
+cb43_2
+cb44_2
+cb45_2
+cb46_2
+cb47_2
+cb48_2
+cb49_2
+cb50_2
+cb51_2
+cb52_2
+cb53_2
+cb54_2
+cb55_2
+cb56a_2
+cb56b_2
+cb56c_2
+cb56d_2
+cb56e_2
+cb56f_2
+cb56g_2
+cb56h_2
+cb57_2
+cb58_2
+cb59_2
+cb60_2
+cb61_2
+cb62_2
+cb63_2
+cb64_2
+cb65_2
+cb66_2
+cb67_2
+cb68_2
+cb69_2
+cb70_2
+cb71_2
+cb72_2
+cb73_2
+cb74_2
+cb75_2
+cb76_2
+cb77_2
+cb78_2
+cb79_2
+cb80_2
+cb81_2
+cb82_2
+cb83_2
+cb84_2
+cb85_2
+cb86_2
+cb87_2
+cb88_2
+cb89_2
+cb90_2
+cb91_2
+cb92_2
+cb93_2
+cb94_2
+cb95_2
+cb96_2
+cb97_2
+cb98_2
+cb99_2
+cb100_2
+cb101_2
+cb102_2
+cb103_2
+cb104_2
+cb105_2
+cb106_2
+cb107_2
+cb108_2
+cb109_2
+cb110_2
+cb111_2
+cb112_2
+attend_2
+destroy_2
+cb1_3
+cb2_3
+cb3_3
+cb4_3
+cb5_3
+cb6_3
+cb7_3
+cb8_3
+cb9_3
+cb10_3
+cb11_3
+cb12_3
+cb13_3
+cb14_3
+cb15_3
+cb16_3
+cb17_3
+cb18_3
+cb19_3
+cb20_3
+cb21_3
+cb22_3
+cb23_3
+cb24_3
+cb25_3
+cb26_3
+cb27_3
+cb28_3
+cb29_3
+cb30_3
+cb31_3
+cb32_3
+cb33_3
+cb34_3
+cb35_3
+cb36_3
+cb37_3
+cb38_3
+cb39_3
+cb40_3
+cb41_3
+cb42_3
+cb43_3
+cb44_3
+cb45_3
+cb46_3
+cb47_3
+cb48_3
+cb49_3
+cb50_3
+cb51_3
+cb52_3
+cb53_3
+cb54_3
+cb55_3
+cb56a_3
+cb56b_3
+cb56c_3
+cb56d_3
+cb56e_3
+cb56f_3
+cb56g_3
+cb56h_3
+cb57_3
+cb58_3
+cb59_3
+cb60_3
+cb61_3
+cb62_3
+cb63_3
+cb64_3
+cb65_3
+cb66_3
+cb67_3
+cb68_3
+cb69_3
+cb70_3
+cb71_3
+cb72_3
+cb73_3
+cb74_3
+cb75_3
+cb76_3
+cb77_3
+cb78_3
+cb79_3
+cb80_3
+cb81_3
+cb82_3
+cb83_3
+cb84_3
+cb85_3
+cb86_3
+cb87_3
+cb88_3
+cb89_3
+cb90_3
+cb91_3
+cb92_3
+cb93_3
+cb94_3
+cb95_3
+cb96_3
+cb97_3
+cb98_3
+cb99_3
+cb100_3
+cb101_3
+cb102_3
+cb103_3
+cb104_3
+cb105_3
+cb106_3
+cb107_3
+cb108_3
+cb109_3
+cb110_3
+cb111_3
+cb112_3
+attend_3
+destroy_3
+income
+income_log
+parent_ed
+mom_ed
+dad_ed
+medication
+mwacs
+PPTOTAL1
+PPTOTAL2
+PPTOTAL3
+PPIMP1
+PPIMP2
+PPIMP3;
+
+USEVARIABLES ARE 
+cb1_1 cb3_1 cb4_1
+cb7_1 cb9_1 cb10_1
+cb13_1 cb15_1 cb16_1
+cb17_1 cb19_1 cb22_1 cb23_1
+cb25_1 cb26_1 cb27_1 cb28_1
+cb30_1 cb31_1 cb32_1 cb33_1 cb34_1
+cb35_1 cb37_1 cb39_1 cb41_1
+cb43_1 cb46_1
+cb50_1 cb51_1 cb52_1 cb56a_1
+cb56b_1 cb56c_1 cb56f_1 cb56g_1
+cb57_1 cb61_1 cb62_1 cb66_1 cb68_1
+cb71_1 cb72_1 cb74_1 cb75_1
+cb80_1 cb81_1 cb82_1 cb84_1
+cb85_1 cb86_1 cb87_1 cb88_1 cb89_1
+cb90_1 cb94_1
+cb95_1 cb97_1 cb102_1 cb103_1
+cb106_1 cb109_1 cb111_1 cb112_1
+ATTEND_1 DESTROY_1 FEMALE AGE
+NHWHITE AFRICAN HISPANIC
+PPTOTAL1 parent_ed income;
+
+CATEGORICAL ARE
+cb1_1 cb3_1 cb4_1
+cb7_1 cb9_1 cb10_1
+cb13_1 cb15_1 cb16_1
+cb17_1 cb19_1 cb22_1 cb23_1
+cb25_1 cb26_1 cb27_1 cb28_1
+cb30_1 cb31_1 cb32_1 cb33_1 cb34_1
+cb35_1 cb37_1 cb39_1 cb41_1
+cb43_1 cb46_1
+cb50_1 cb51_1 cb52_1 cb56a_1
+cb56b_1 cb56c_1 cb56f_1 cb56g_1
+cb57_1 cb61_1 cb62_1 cb66_1 cb68_1
+cb71_1 cb72_1 cb74_1 cb75_1
+cb80_1 cb81_1 cb82_1 cb84_1
+cb85_1 cb86_1 cb87_1 cb88_1 cb89_1
+cb90_1 cb94_1
+cb95_1 cb97_1 cb102_1 cb103_1
+cb106_1 cb109_1 cb111_1 cb112_1
+ATTEND_1 DESTROY_1;
+
+MISSING ARE .;
+WEIGHT = psweight;
+STRATIFICATION=SITEN;
+CLUSTER=FAMID;
+
+DEFINE: STANDARDIZE PPTOTAL1;
+
+ANALYSIS:
+ESTIMATOR=WLSMV;
+ITERATIONS=500000;
+TYPE = COMPLEX;
+
+MODEL:
+
+
+EXT BY CB3_1* CB7_1 CB15_1 CB16_1
+CB19_1 CB22_1 CB23_1
+CB25_1 CB26_1 CB27_1 CB28_1 CB34_1
+CB37_1 CB39_1
+CB43_1 CB57_1 CB68_1 CB72_1 CB74_1
+CB81_1 CB82_1 CB86_1 CB87_1 CB88_1
+CB89_1 CB90_1 CB94_1 CB95_1 CB97_1
+CB106_1 CB109_1 DESTROY_1;
+
+ADHD BY CB1_1* CB4_1 CB9_1 CB10_1
+CB13_1 CB17_1 CB41_1 CB46_1 CB61_1
+CB62_1 CB66_1 CB80_1 CB84_1 CB85_1
+ATTEND_1;
+
+INT BY CB30_1* CB31_1 CB32_1 CB33_1
+CB35_1 CB50_1 CB51_1 CB52_1
+CB56a_1 CB56B_1 CB56C_1 CB56F_1
+CB56G_1 CB71_1 CB75_1
+CB102_1 CB103_1 CB111_1 CB112_1;
+
+[GENERAL@0]; [INT@0]; [EXT@0]; [ADHD@0];
+GENERAL@1; INT@1; EXT@1; ADHD@1;
+
+GENERAL BY EXT* ADHD INT;
+
+PPTOTAL1 ON EXT INT ADHD FEMALE AGE
+NHWHITE AFRICAN HISPANIC parent_ed income;
+
+OUTPUT: STDYX;
